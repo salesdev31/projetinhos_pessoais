@@ -1,0 +1,26 @@
+.figharea {
+    display: flex;
+    gap: 20px;
+}
+
+.lifebar {
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.bar {
+    background-color: red;
+    height: inherit;
+}
+
+#char,
+#monster {
+    flex: 1;
+}
+
+.log {
+    overflow-y: scroll;
+    height: 500px;
+    border: 1px  dotted black;
+}
